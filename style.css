@@ -36,7 +36,6 @@ body {
       opacity: 0;
     }
   }
-  
   .left, .center, .right, .lefter, .righter {
     width: 200px;
     height: 150px;
@@ -54,7 +53,6 @@ body {
     background-color: #58d;
     cursor: pointer;
     background-blend-mode: color-burn;
-    
     &:hover {
       box-shadow: 0 0 30px 10px rgba(100, 100, 255, .6);
     background-color: #ccf;
@@ -106,9 +104,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  
+  } 
   .ref {
     background-color: #000;
     background-image: linear-gradient(to bottom, #d80, #c00);
@@ -124,4 +120,4 @@ body {
     &::first-letter {
       font-size: 12px;
     }
-  }
+  }  
